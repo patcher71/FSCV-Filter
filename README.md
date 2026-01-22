@@ -3,7 +3,7 @@ Simple Zero Phase Filter for FSCV Color Plots
 
 This application was written with the assistance of Claude AI.
 
-When dealing with color plots in FSCV experiments, a slow drift is often visible, especially at later time points in the file.  This slow drift component can be reduced or eliminated using a simple, 'zero-phase' high pass filter without altering the primary fast dopamine signal.  This processing approach was reported by DeWaele et al. (see here:https://pmc.ncbi.nlm.nih.gov/articles/PMC5705064/). This application implements this simple zero pass filter in Matlab. 
+When dealing with color plots in FSCV experiments, a slow drift is often visible, especially at later time points in the file.  This slow drift component can be reduced or eliminated using a simple, 'zero-phase' high pass filter without altering the primary fast dopamine signal.  This processing approach was reported by DeWaele et al. (see here:https://pmc.ncbi.nlm.nih.gov/articles/PMC5705064/). This application implements this simple zero pass filter in Matlab by reading in the color plot created using the HDCV Analysis program. 
 
 # Step 1-Create Color Plot TXT file
 
@@ -11,13 +11,13 @@ Using the HDCV Analysis program, export the color plot to a text file.
 
 # Step 2-Open the Color Plot in the application
 
-Upon loading the plot, you will see the color plot on the left.  
+Upon loading the text file, you will see the color plot on the left.  
 
 
 
 <img width="1986" height="1182" alt="image" src="https://github.com/user-attachments/assets/389538c6-e33e-4934-8b7a-e311593b3949" />
 
-# Step 3-Adjust Settings
+# Step 3-Adjust Filter Settings
 
 After adjusting the settings, hit 'Apply Filter' and you will see the filtered color plot on the right.
 
