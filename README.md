@@ -28,3 +28,10 @@ After adjusting the settings, hit 'Apply Filter' and you will see the filtered c
 You will now see the original current, as well as the filtered current overlaid on the I vs T plot.  The voltammagram is shown on the lower right. Notice the prominent slow 'tail' that follows the dopamine current has been largely removed. This will facilitate analysis of the primary signal. If you are happy with the filtered signal, you can save this I vs T text file and proceed.  Otherwise, you can adjust the filter settings---just be sure to pick values that don't disrupt the peak or kinetics of the primary signal!
 
 <img width="1988" height="1177" alt="image" src="https://github.com/user-attachments/assets/a00b631c-c524-45ea-a137-cd345a645378" />
+
+
+## **NEW: Version 2 provides for signal averaging of I-T plots**
+
+In version 2, you can add individual I-T plots to a running average that can then be saved for later analysis/plotting. Simply run as above, then add the I-T to the average using the green button, load the next file, etc.  Once you have an averaged response that looks reasonable (typically 3-4 files), you can save it.  
+
+<img width="1997" height="1182" alt="image" src="https://github.com/user-attachments/assets/5660af0b-c633-4ed1-bbf2-9fe5001a7e22" />
